@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="120px" height="129px" viewBox="0 0 120 129" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group-25">
+    <path d="M88.6045 3.47555C54.4771 9.25741 -2.565 22.9418 0.120771 49.5535C3.94157 87.4116 62.2207 152.995 97.2562 120.005C120.358 98.251 119.994 53.0088 117.066 24.7123C115.645 10.979 102.217 1.16931 88.6045 3.47555Z" id="Path-2-Copy-4" fill="#D8EFF1" fill-rule="evenodd" stroke="none" />
+    <g id="Group-12" transform="translate(24 27)">
+      <g id="Group-11">
+        <g id="Group-27">
+          <path d="M85 21L85 60.4422C85 61.8548 83.8333 63 82.3937 63L2.60629 63C1.16665 63 0 61.8548 0 60.4422L0 21L42.4999 42L85 21Z" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M35 38L1 62" id="Stroke-3" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M50 38L84 62" id="Stroke-5" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M14 26.3334L14 10L70 10L70 27" id="Stroke-7" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M23 17L60 17" id="Stroke-9" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M23 21L60 21" id="Stroke-11" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M23 25L60 25" id="Stroke-13" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M23 29L30 29" id="Stroke-15" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M25 33L43 33" id="Stroke-17" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M36 29L43 29" id="Stroke-19" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M0 20L13 13" id="Stroke-21" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M20 10L42 0L64 9.50001" id="Stroke-23" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M70 13L85 21" id="Stroke-25" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

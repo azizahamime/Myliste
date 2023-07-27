@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="120px" height="129px" viewBox="0 0 120 129" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group-24">
+    <g id="Group-26">
+      <path d="M88.6045 3.47555C54.4771 9.25741 -2.565 22.9418 0.120771 49.5535C3.94157 87.4116 62.2207 152.995 97.2562 120.005C120.358 98.251 119.994 53.0088 117.066 24.7123C115.645 10.979 102.217 1.16931 88.6045 3.47555Z" id="Path-2-Copy-3" fill="#D8EFF1" fill-rule="evenodd" stroke="none" />
+      <g id="Group-10" transform="translate(42 28)">
+        <g id="Group-9">
+          <path d="M52.0611 0.655181L17.2279 47.3397L15 51.5728C15 51.5728 18.2406 52.5809 19.861 55L23.5068 51.5728L54.7466 2.49051C55.2631 1.67898 54.9619 0.601 54.0984 0.17131C53.3913 -0.180511 52.5325 0.0235452 52.0611 0.655181Z" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M17 47.0083C17 47.0083 21.387 46.6282 23 51" id="Stroke-3" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M14.5999 52C14.5999 52 4.30606 53.1079 3.22932 61.4485C2.15303 69.7891 0 71.3528 0 71.3528L4.57508 70.5708L2.42204 72.9167C2.42204 72.9167 15.878 74.4806 20.4531 64.0548C20.4531 64.0548 22.2024 59.6239 19.444 55.3232" id="Stroke-5" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M5 57.2632L10.8928 57L8.48213 60.9472L15.1787 59.3685L12.232 64.6315L16.7856 63.5789L15.7144 67L20 65.9473" id="Stroke-7" fill="none" fill-rule="evenodd" stroke="#29ABB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
