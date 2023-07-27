@@ -1,0 +1,33 @@
+{
+  "country":[
+    {
+      "id":1,
+      "name":"Australie",
+      "image":"Australie.png",
+      "description":"L’Australie, la plus grande île du monde. Entre désert, forêt et barrière de corail.",
+      "stars":4 
+    },
+    {
+      "id":2,
+      "name":"Maldives",
+      "image":"Maldives.png",
+      "description":"Les Maldives et leurs trésors sous-marins.",
+      "stars":5
+    },
+    {
+      "id":3,
+      "name":"Tanzanie",
+      "image":"Tanzanie.png",
+      "description":"La Tanzanie, un safari exceptionnel au cœur de la vie sauvage et authentique.",
+      "stars":5
+    },
+    {
+      "id":4,
+      "name":"Thaïlande",
+      "image":"Thailand.png",
+      "description":"La Thaïlande, entre Soleil, eau chaude et vue imprenable.",
+      "stars":4
+    }
+    
+  ]
+}

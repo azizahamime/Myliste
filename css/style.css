@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --main-color: #29ABB7;
+  --secondary-color:#575757;
+  --white:#fff;
+}
+body{
+  font-family: Poppins, sans-serif;
+  margin:0;
+  padding: 0;
+}
+.container{
+  width:80%;
+  max-width: 1450px;
+  margin: 30px auto;
+}
+.mb{
+  margin-bottom: 50px;
+}
+
+h1, h2{
+  font-family: Kalam !important;
+  font-size: 42px;
+  color:var(--main-color);
+  font-weight: 400;
+  line-height: 40px;
+}
+h3{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15px;
+  color: var(--main-color);
+}
+p{
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--secondary-color)
+}
+button{
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  padding: 10px 30px;
+}
+section{
+  padding:30px 0;
+}
+.card{
+  border:2px solid #000;
+}
+/***** section services*****/
+#services .container{
+  display: flex;
+  flex-direction: column;
+  gap:36px;
+}
+
+.services-head{
+  text-align: center; 
+}
+
+.services-body{
+  display: flex;
+  gap:36px;
+  
+}
+.organisation{
+  width:60%;
+}
+
+.organisation img{
+  width:100%;
+  object-fit: cover;
+}
+.organisation p a{
+  color: var(--main-color);
+}
+
+.services-list{
+  display: flex;
+  flex-direction: column;
+  gap:36px
+  
+}
+.services-list > div{
+  display: flex;
+  gap:30px
+}
+
+/****** section devis*****/
+#devis{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top:170px;
+}
+.devis-content{
+  padding: 100px 0;
+  background-color: var(--main-color);
+ 
+    
+}
+.devis-content .container{
+  width:60%;
+}
+.devis-content h2, .devis-content p{
+  color: var(--white)
+}
+.devis-img{
+  position: absolute;
+  top: -120px;
+  right:0;
+  
+}
+.circle{
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  z-index:10 !important;
+}
+#devis button{
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+#devis button:hover{
+  background-color: var(--white);
+  color: var(--main-color)
+}
+/****** section myliste*****/
+#mylist .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap:36px
+}
+.mylist-head{
+  text-align: center;
+}
+#mylist button{
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+}
+.mylist-content{
+  display: flex;
+  justify-content: space-between;
+
+}
+.mylist-content >div{
+  display: flex;
+  gap:20px;
+  width: 30%;
+}
