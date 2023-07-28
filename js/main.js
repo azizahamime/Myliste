@@ -1,18 +1,23 @@
-import { countryFunc } from "./country";
+import { countryFunc } from "./country.js";
 
 async function getCountry() {
   let datas = await fetch("./data/country.json").then(datas => datas.json());
-  console.log(datas)
+  return (datas)
 }
-async function displayData(countries) {
+
+function displayData(countries) {
   const countrySection = document.getElementById("country");
-  console.log(countrySection);
+  console.log("hello")
+
   countries.forEach((country) => {
     const countryModel = countryFunc(country);
     const countryCardDOM = countryModel.createCardDom();
     countrySection.append(countryCardDOM);
+    console.log(countryModel)
+
 
   });
+
 
 }
 
@@ -24,3 +29,4 @@ async function init() {
 }
 
 init();
+

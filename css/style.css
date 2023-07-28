@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins:wght@400;500;600&display=swap');
 
 :root {
   --main-color: #29ABB7;
@@ -7,13 +7,15 @@
 }
 body{
   font-family: Poppins, sans-serif;
-  margin:0;
+  margin:0 auto;
   padding: 0;
+  box-sizing: border-box;
+  max-width: 1850px;
 }
 .container{
   width:80%;
   max-width: 1450px;
-  margin: 30px auto;
+  margin: 0 auto;
 }
 .mb{
   margin-bottom: 50px;
@@ -48,9 +50,48 @@ button{
 section{
   padding:30px 0;
 }
-.card{
-  border:2px solid #000;
+#country{
+  display: flex;
+  justify-content: space-between;
+  gap:30px;
+  flex-wrap: wrap !important;
 }
+#country article{
+  width:20%;
+  min-width: 250px;
+}
+.card{
+  background-repeat: no-repeat;
+  height: 350px;
+  padding:10px;
+  background-size: cover;
+  border-radius:5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.card-head img,.card-head h2,.card .description{
+  color:var(--white) !important;
+}
+.card-head{
+  display: flex;
+  
+}
+.card-head h2{
+  font-family: poppins !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+}
+.description{
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+.emptyStar{
+  color:red;
+}
+
 /***** section services*****/
 #services .container{
   display: flex;
@@ -68,7 +109,7 @@ section{
   
 }
 .organisation{
-  width:60%;
+  width:120%;
 }
 
 .organisation img{
@@ -100,11 +141,17 @@ section{
 .devis-content{
   padding: 100px 0;
   background-color: var(--main-color);
+  width: 50%;
  
     
 }
 .devis-content .container{
-  width:60%;
+  width:70%;
+  
+}
+.devis-description{
+  max-width:400px;
+  
 }
 .devis-content h2, .devis-content p{
   color: var(--white)
@@ -115,10 +162,11 @@ section{
   right:0;
   
 }
+
 .circle{
   position: absolute;
-  bottom: 0;
-  left:50%;
+  bottom: 30px;
+  left:40%;
   z-index:10 !important;
 }
 #devis button{
@@ -144,13 +192,121 @@ section{
   color: var(--main-color);
   border: 2px solid var(--main-color);
 }
+#mylist button:hover{
+  color: var(--white);
+  background-color:var(--main-color);
+}
 .mylist-content{
   display: flex;
   justify-content: space-between;
-
+  flex-wrap: wrap;
+  gap:30px
 }
 .mylist-content >div{
   display: flex;
   gap:20px;
   width: 30%;
+  min-width: 250px;
+}
+
+@media (max-width:1320px){
+  #devis {
+    margin-top: 230px;
+  }
+  .devis-img{
+    top: -260px; 
+  }
+  .devis-content{
+    padding-top: 180px;
+    width:70%
+  }
+  .circle{
+    left:60%
+  }
+  .devis-description{
+    max-width: 600px;
+  }
+  .mylist-content >div{
+     min-width: 350px;
+    
+  }
+}
+
+/**** laptop****/
+@media (max-width:992px){
+  #devis {
+    margin-top: 270px;
+    
+  }
+  #country{
+    justify-content: start;
+    column-gap: 30px;
+  }
+  .devis-img{
+    top: -280px; 
+    left:20%;
+    overflow: hidden;
+  }
+  .devis-img img{
+    width:110%;
+  }
+  .devis-content{
+    padding-top: 100px;
+    width:90%
+  }
+  .circle{
+    left:70%;
+    top:5%;
+    width:30%
+
+  } 
+}
+/***** tablette****/
+@media (max-width:768px){
+  .container{
+    width:95%;
+  }
+  #country{
+    flex-direction: column;
+  }
+  #country article{
+    width:100%;
+  }
+  .organisation{
+    width:100%;
+  }
+  .services-body, #devis{
+    flex-direction: column;
+  }
+  #devis{
+    margin-top:50px;
+    justify-content: center;
+  }
+  .devis-content{
+    width:100%;
+    padding-top: 100px;
+  }
+  .devis-description{
+    max-width: 100%;
+  }
+  .devis-img{
+    position: static;
+  }
+  .devis-img img{
+    width:100%
+  }
+  .circle{
+    top:50%;
+    left:45%;
+  }
+  .mylist-content{
+    flex-direction: column;
+  }
+  .mylist-content > div{
+    width: 100%;
+  }
+  h1,h2{
+    font-size: 32px;
+  }
+
 }
