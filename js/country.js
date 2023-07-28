@@ -49,7 +49,7 @@ export function countryFunc(data) {
       star.setAttribute("alt", "star");
       starsContainer.append(star);
       if (i <= `${stars}`) {
-        star.setAttribute("src", "./assets/icons/star.svg");
+        star.setAttribute("src", "./assets/icons/Star.svg");
       } else {
         star.setAttribute("src", "./assets/icons/emptyStar.svg");
       }
