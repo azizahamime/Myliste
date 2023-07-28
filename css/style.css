@@ -264,6 +264,7 @@ section{
 @media (max-width:768px){
   .container{
     width:95%;
+   
   }
   
   .organisation{
@@ -278,7 +279,10 @@ section{
   }
   .devis-content{
     width:100%;
-    padding-top: 100px;
+    padding:50px 0;
+  }
+  .devis-content .container{
+    width:95%;
   }
   .devis-description{
     max-width: 100%;
@@ -291,7 +295,7 @@ section{
   }
   .circle{
     top:50%;
-    left:45%;
+    right:0
   }
   .mylist-content{
     flex-direction: column;
