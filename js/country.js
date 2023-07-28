@@ -1,12 +1,26 @@
 export function countryFunc(data) {
-  const { name, image, description, stars } = data;
+  const { name, id, image, description, stars } = data;
 
   const picture = `assets/images/${image}`;
   function createCardDom() {
     const article = document.createElement("article");
     const card = document.createElement("div");
     card.classList.add("card");
-    card.setAttribute("style", `background-image:linear-gradient(0deg, rgba(116,19,5,0.3) 0%, rgba(216,216,216,0.4) 100%),url('${picture}')`);
+    switch (id) {
+      case 1:
+        card.setAttribute("style", `background-image:linear-gradient(0deg, #402004 0%, rgba(216,216,216,0) 100%),url('${picture}')`);
+        break;
+      case 2:
+        card.setAttribute("style", `background-image:linear-gradient(0deg, #741305 0%, rgba(216,216,216,0) 100%),url('${picture}')`);
+        break;
+      case 3:
+        card.setAttribute("style", `background-image:linear-gradient(0deg, #4e3204 0%, rgba(216,216,216,0) 100%),url('${picture}')`);
+        break;
+      case 4:
+        card.setAttribute("style", `background-image:linear-gradient(0deg, #368e8c 0%, rgba(216,216,216,0) 100%),url('${picture}')`);
+        break;
+    }
+
     article.append(card);
 
     /**** l'entéte de la carte */
@@ -35,9 +49,9 @@ export function countryFunc(data) {
       star.setAttribute("alt", "star");
       starsContainer.append(star);
       if (i <= `${stars}`) {
-        star.setAttribute("src", "assets/icons/star.svg");
+        star.setAttribute("src", "./assets/icons/star.svg");
       } else {
-        star.setAttribute("src", "assets/icons/emptyStar.svg");
+        star.setAttribute("src", "./assets/icons/emptyStar.svg");
       }
     }
     return (article);
