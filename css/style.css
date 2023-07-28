@@ -265,12 +265,7 @@ section{
   .container{
     width:95%;
   }
-  #country{
-    flex-direction: column;
-  }
-  #country article{
-    width:100%;
-  }
+  
   .organisation{
     width:100%;
   }
@@ -303,9 +298,22 @@ section{
   }
   .mylist-content > div{
     width: 100%;
+    min-width: 200px;
+  }
+  .mylist-content img{
+    width: 100px;
+    height: 100px;
   }
   h1,h2{
     font-size: 32px;
   }
 
+}
+@media (max-width:576px){
+  #country{
+    flex-direction: column;
+  }
+  #country article{
+    width:100%;
+  }
 }
