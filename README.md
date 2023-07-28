@@ -7,6 +7,6 @@ Choisir une distination pour un voyage de noce
 * l'utilisation d'une librairie ou préprocesseur n'est pas demandé
 
 ## Ce qui était fait 
-*La page est responsive
-*La premiére partie de était gérer avec le js Dom pour facilité les eventuelles changements (exemple ajouter d'autres destinations ou modification de contenu des cartes)
-*Cliquer [ici]([https://example.com/ "titre de lien optionnel"](https://azizahamime.github.io/Myliste/)https://azizahamime.github.io/Myliste/) pour voir le site
+* La page est responsive
+* La premiére partie de était gérer avec le js Dom pour facilité les eventuelles changements (exemple ajouter d'autres destinations ou modification de contenu des cartes)
+* Cliquer [ici](https://azizahamime.github.io/Myliste/) pour voir le site
